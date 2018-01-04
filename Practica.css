@@ -1,44 +1,55 @@
-.contenido{
+.contenido {
 	text-align: left;
    	width: 50%;
 	margin: 0 auto;
 	font-family: Verdana;
+	clear: left;
 }
 
-div.Intermedio{
+.intermedio {
 	width: 80%;
 }
 
-#intermedio{
+.opinion {
 color: #2980B9
 }
 
-.imagen_central{
+.imagen-central {
 	width: 50%;
 	margin: 0 auto;
-	display:inline-block;
-	margin-left:210px;
+	float: left;
+	margin-left: 100px;
 }
 
-.Titulo_principal{
+.titulo-principal {
 	width:90%;
 	margin: 0 auto;
 	font-family: Verdana;
 }
 
-#Titulo{
+#titulo {
 	font-size: 40px;
 	font-family: Verdana;
 }
 
-.autor{
+.autor {
 	width: 50%;
 	margin: 0 auto;
 	text-align: left;
 	font-family: Verdana;
+	clear: left;
 }
 
-.Redes{
-	display: inline-block;
+.redes {
+	float: left;
+	margin-top: 30px;
 	
+}
+li {
+margin-top: 20px;
+}
+
+button {
+	width: 100px;
+	height: 40px;
 }
